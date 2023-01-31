@@ -34,7 +34,7 @@ header{
    border-radius: 15px;
    color: rgb(255, 255, 255);
    font-size: 60%;
-   font-family: sans-serif;
+   font-family: var(--Fuente-principal);
    text-align: center;
    width: fit-content;
    background-color: rgba(0, 0, 0, 0.7);
@@ -59,4 +59,13 @@ header{
 h2{
    font-size: 15px;
    font-family: var(--Fuente-principal)
+}
+.container{
+   background-color: grey;
+   text-align: center;
+}
+.input{
+   display:inline-grid;
+   border-radius: 5rem;
+
 }
