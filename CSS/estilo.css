@@ -63,9 +63,11 @@ h2{
 .container{
    background-color: grey;
    text-align: center;
+   font-family: var(--Fuente-principal);
 }
 .input{
    display:inline-grid;
-   border-radius: 5rem;
-
+   border: auto;
+   border-radius: 10px;
+   margin-top: auto;
 }
