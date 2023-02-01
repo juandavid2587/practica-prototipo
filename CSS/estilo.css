@@ -69,16 +69,17 @@ h2{
    font-family: var(--Fuente-principal)
 }
 .container{
-   background-color: grey;
+   background-color: rgba(128, 128, 128, 0.342);
    text-align: center;
    font-family: var(--Fuente-principal);
    font-size: 25px;
 }
 .input{
-   display:inline-grid;
-   border: auto;
+   grid-template-columns: auto auto;
    border-radius: 10px;
    margin-top: auto;
+   justify-content: center;
+   display: flex;
 }
 nav{
    margin: 20px;
@@ -102,10 +103,35 @@ header nav a{
    color: white;
    display: flex;
 }
-.Menu{
-   
-}
 @media (min-width:700px) {
 }{
    header{min-width: 700px;}
 }
+@media screen and (max-width: 1000px){
+   header nav{
+      text-align: center;
+      float: right;
+      display: block;}
+}
+@media screen and (max-width: 1000px){
+      header nav a{
+         display: block;
+         color: #ffffff;
+         font-size: 1rem;
+         line-height: 3.4375rem;
+         width: 3.4375rem;
+         height: 3.4375rem;}
+}
+[class^="icon-"], [class*=" icon-"] {
+   font-family: var(--Fuente-principal);
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+    
