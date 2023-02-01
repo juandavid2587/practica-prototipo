@@ -75,11 +75,10 @@ h2{
    font-size: 25px;
 }
 .input{
-   grid-template-columns: auto auto;
-   border-radius: 10px;
+   display:grid;
+   grid-template-columns: auto;
    margin-top: auto;
-   justify-content: center;
-   display: flex;
+   justify-items: center;
 }
 nav{
    margin: 20px;
@@ -103,9 +102,9 @@ header nav a{
    color: white;
    display: flex;
 }
-@media (min-width:700px) {
+@media (min-width:405px) {
 }{
-   header{min-width: 700px;}
+   header{min-width: 405px;}
 }
 @media screen and (max-width: 1000px){
    header nav{
@@ -133,5 +132,16 @@ header nav a{
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
-
+div input{
+   width: 400px;
+   border-radius: 1rem;
+   border: none;
+   height: 25px;
+}
+div button{
+   width: 200px;
+   border-radius: 1rem;
+   border: none;
+   height: 25px;
+}
     
