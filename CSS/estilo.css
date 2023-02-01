@@ -12,6 +12,7 @@ body{
 .cabecera img{
    height: 50px;
    display: flex;
+   border-radius: 29px;
    
 }
 header{
@@ -55,6 +56,7 @@ header{
 }
 .Empresa{
    align-items: center;
+   margin: 9px;
 }
 h2{
    font-size: 15px;
@@ -64,10 +66,26 @@ h2{
    background-color: grey;
    text-align: center;
    font-family: var(--Fuente-principal);
+   font-size: 25px;
 }
 .input{
    display:inline-grid;
    border: auto;
    border-radius: 10px;
    margin-top: auto;
+}
+nav{
+   margin: 20px;
+   
+}
+#a{
+   font-size: 25px;
+   font-family: var(--Fuente-principal);
+}
+#b{
+   font-size: 15px;
+   font-family: var(--Fuente-principal);
+}
+nav .a{
+   
 }
