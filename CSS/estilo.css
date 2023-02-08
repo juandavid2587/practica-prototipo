@@ -147,11 +147,44 @@ button a{
    font-family: var(--Fuente-principal);
    justify-content: space-between;
 }
-.container-final{
+.container-final .redes .p{
    display: flex;
    height: 50px;
    justify-content: space-between;
+   font-family: url(--Fuente-principal);
 }
-
-
+.nombre_empresa{
+   text-align: center;
+   font-family: url(--Fuente-principal);
+   border: 1px solid gray;
+}
+.nombre_empresa p{
+   padding: 3rem;
+   height: 1rem;
+   text-align: center;
+   text-decoration: none;
+   color: rgb(194, 5, 5);
+   font-family: url(--Fuente-principal);
+}
+.acceso_menu{
+   text-align: center;
+   text-decoration: none;
+   font-family: url(--Fuente-principal);
+   border: 1px solid gray;
+}
+.acceso_menu p{
+   text-decoration: none;
+}
+.acceso_links{
+   text-align: center;
+   text-decoration: none;
+   font-family: url(--Fuente-principal);
+   border: 1px solid gray;
+}
+.acceso_contacto{
+   text-align: center;
+   text-decoration: none;
+   font-family: url(--Fuente-principal);
+   border: 1px solid gray;
+}
     
